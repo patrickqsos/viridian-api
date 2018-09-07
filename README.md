@@ -1,6 +1,12 @@
 # Rest API Viridian POC
 
 ### Requisitos previos
+- Tener zookeper y kafka corriendo en las direcciones por defecto
+
+`  http://localhost:2181 (zookeeper)`
+
+`  http://localhost:9092 (kafka)`
+
 - Tener un topic con el nombre "viridian-test"
 
 ` bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic viridian-test`
