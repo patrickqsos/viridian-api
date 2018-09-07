@@ -3,6 +3,8 @@
 ### Requisitos previos
 - Tener un topic con el nombre "viridian-test"
 
+` bin/kafka-topics.sh --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic viridian-test`
+
 Para ejecutar el proyecto seguir los siguientes pasos:
 
 1. Clonar el proyecto 
